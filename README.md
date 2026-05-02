@@ -1,16 +1,66 @@
-# restaurant_app
+ Restaurant App (Flutter)
 
-A new Flutter project.
+This is a simple Flutter app to display a list of restaurants.
+It has a clean UI, loads images, and handles errors properly.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+ Features
 
-A few resources to get you started if this is your first Flutter project:
+ Display list of restaurants
+ Load images from network
+ Show error message if something fails
+ Retry button to try again
+ Simple and reusable UI
+ Smooth navigation between screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+ Environment Details
+
+
+ Flutter: 3.35.7
+ Dart: 3.9.2git init
+ Gradle: 8.12
+ Android Gradle Plugin: Managed by Flutter
+ JDK: 17
+ Minimum SDK: 23
+ Target SDK: 34
+ Build Variant: Release
+
+
+
+ Project Structure
+
+
+lib/
+  model/
+    restaurant_entity.dart
+     restaurant_detail_entity.dart
+
+  widgets/
+    restaurant_card.dart
+    error_msg.dart
+    
+
+  screens/
+    restaurant_list_screen.dart
+    restaurant_detail_screen.dart
+    
+
+  main.dart
+```
+
+---
+
+Error Handling
+
+The app uses a reusable widget called ErrorFallback.
+
+ Displays an error message
+ Provides a retry button
+
+
+```
+
+
+
