@@ -16,6 +16,7 @@ It has a clean UI, loads images, and handles errors properly.
 
 
  Environment Details
+ 
 
  Flutter: 3.35.7
  Dart: 3.9.2
